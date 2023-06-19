@@ -35,7 +35,7 @@
 						<p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"> <label for="rememberme">Tự động đăng nhập</label></p>
 			<p class="submit">
 				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Đăng nhập">
-									<input type="hidden" name="redirect_to" value="http://localhost:8080/Doancuoiky/wp-admin/?simply_static_page=1052">
+									<input type="hidden" name="redirect_to" value="http://localhost:8080/Doancuoiky/wp-admin/?simply_static_page=2065">
 									<input type="hidden" name="testcookie" value="1">
 			</p>
 		</form>
@@ -60,7 +60,7 @@ if ( typeof wpOnload === 'function' ) { wpOnload() }</script>
 					<select name="wp_lang" id="language-switcher-locales"><option value="en_US" lang="en" data-installed="1">English (United States)</option>
 <option value="vi" lang="vi" selected data-installed="1">Tiếng Việt</option></select>
 					
-											<input type="hidden" name="redirect_to" value="http://localhost:8080/Doancuoiky/wp-admin/?simply_static_page=1052">
+											<input type="hidden" name="redirect_to" value="http://localhost:8080/Doancuoiky/wp-admin/?simply_static_page=2065">
 					
 					
 						<input type="submit" class="button" value="Thay đổi">
@@ -89,7 +89,7 @@ wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 <script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
 <script id="wp-util-js-extra">var _wpUtilSettings = {"ajax":{"url":"\/Doancuoiky\/wp-admin\/admin-ajax.php"}};</script>
 <script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/wp-util.min.js?ver=6.2.2" id="wp-util-js"></script>
-<script id="user-profile-js-extra">var userProfileL10n = {"user_id":"0","nonce":"833da6f841"};</script>
+<script id="user-profile-js-extra">var userProfileL10n = {"user_id":"0","nonce":"3a27e7b6fe"};</script>
 <script id="user-profile-js-translations">( function( domain, translations ) {
 	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
 	localeData[""].domain = domain;
