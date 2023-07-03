@@ -9,35 +9,15 @@
 
 <channel>
 	<title>Doancuoiky</title>
-	<atom:link href="http://localhost/Doancuoiky/feed/?simply_static_page=2068" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/Doancuoiky/feed/?simply_static_page=3089" rel="self" type="application/rss+xml" />
 	<link>https://ngocnhiap.github.io/doancuoiky</link>
 	<description></description>
-	<lastBuildDate>Mon, 29 May 2023 07:49:49 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 03 Jul 2023 13:54:39 +0000</lastBuildDate>
 	<language>vi</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.2.2</generator>
-	<item>
-		<title>Chào tất cả mọi người!</title>
-		<link>https://ngocnhiap.github.io/doancuoiky/blog/2023/05/29/chao-moi-nguoi/</link>
-					<comments>https://ngocnhiap.github.io/doancuoiky/blog/2023/05/29/chao-moi-nguoi/#comments</comments>
-		
-		<dc:creator><![CDATA[root]]></dc:creator>
-		<pubDate>Mon, 29 May 2023 07:49:49 +0000</pubDate>
-				<category><![CDATA[Chưa phân loại]]></category>
-		<guid isPermaLink="false">https://ngocnhiap.github.io/doancuoiky/?p=1</guid>
-
-					<description><![CDATA[Cảm ơn vì đã sử dụng WordPress. Đây là bài viết đầu tiên của bạn. Sửa hoặc xóa nó, và bắt đầu bài viết của bạn nhé!]]></description>
-										<content:encoded><![CDATA[
-<p>Cảm ơn vì đã sử dụng WordPress. Đây là bài viết đầu tiên của bạn. Sửa hoặc xóa nó, và bắt đầu bài viết của bạn nhé!</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://ngocnhiap.github.io/doancuoiky/blog/2023/05/29/chao-moi-nguoi/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-			</item>
-	</channel>
+</channel>
 </rss>
