@@ -4,6 +4,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Đăng nhập &lsaquo; Doancuoiky &#8212; WordPress</title>
 	<meta name="robots" content="max-image-preview:large, noindex, noarchive">
+<script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js"></script>
+<script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" id="jquery-migrate-js"></script>
+<link rel="stylesheet" id="ttqr-style-css" href="https://ngocnhiap.github.io/doancuoiky/wp-content/plugins/thanh-toan-qrcode/assets/css/style.css?ver=6.2.2" media="all">
 <link rel="stylesheet" id="dashicons-css" href="https://ngocnhiap.github.io/doancuoiky/wp-includes/css/dashicons.min.css?ver=6.2.2" media="all">
 <link rel="stylesheet" id="buttons-css" href="https://ngocnhiap.github.io/doancuoiky/wp-includes/css/buttons.min.css?ver=6.2.2" media="all">
 <link rel="stylesheet" id="forms-css" href="https://ngocnhiap.github.io/doancuoiky/wp-admin/css/forms.min.css?ver=6.2.2" media="all">
@@ -35,7 +38,7 @@
 						<p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"> <label for="rememberme">Tự động đăng nhập</label></p>
 			<p class="submit">
 				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Đăng nhập">
-									<input type="hidden" name="redirect_to" value="http://localhost:8080/Doancuoiky/wp-admin/?simply_static_page=3080">
+									<input type="hidden" name="redirect_to" value="http://localhost:8080/Doancuoiky/wp-admin/?simply_static_page=4189">
 									<input type="hidden" name="testcookie" value="1">
 			</p>
 		</form>
@@ -60,25 +63,35 @@ if ( typeof wpOnload === 'function' ) { wpOnload() }</script>
 					<select name="wp_lang" id="language-switcher-locales"><option value="en_US" lang="en" data-installed="1">English (United States)</option>
 <option value="vi" lang="vi" selected data-installed="1">Tiếng Việt</option></select>
 					
-											<input type="hidden" name="redirect_to" value="http://localhost:8080/Doancuoiky/wp-admin/?simply_static_page=3080">
+											<input type="hidden" name="redirect_to" value="http://localhost:8080/Doancuoiky/wp-admin/?simply_static_page=4189">
 					
 					
 						<input type="submit" class="button" value="Thay đổi">
 
 					</form>
 				</div>
-				<script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js"></script>
-<script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0" id="jquery-migrate-js"></script>
-<script id="zxcvbn-async-js-extra">var _zxcvbnSettings = {"src":"https:\/\/ngocnhiap.github.io\/doancuoiky\/wp-includes\/js\/zxcvbn.min.js"};</script>
-<script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/zxcvbn-async.min.js?ver=1.0" id="zxcvbn-async-js"></script>
+				<script src="https://ngocnhiap.github.io/doancuoiky/wp-content/plugins/thanh-toan-qrcode/assets/js/easy.qrcode.js?ver=6.2.2" id="ttqr-qrcode-js"></script>
+<script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/jquery/ui/menu.min.js?ver=1.13.2" id="jquery-ui-menu-js"></script>
 <script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
 <script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11" id="regenerator-runtime-js"></script>
 <script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca" id="wp-dom-ready-js"></script>
 <script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5" id="wp-hooks-js"></script>
 <script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae" id="wp-i18n-js"></script>
 <script id="wp-i18n-js-after">
 wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 </script>
+<script id="wp-a11y-js-translations">( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2023-07-03 03:51:18+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"vi_VN"},"Notifications":["Thông báo"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );</script>
+<script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/dist/a11y.min.js?ver=ecce20f002eda4c19664" id="wp-a11y-js"></script>
+<script id="jquery-ui-autocomplete-js-extra">var uiAutocompleteL10n = {"noResults":"Không tìm thấy kết quả.","oneResult":"Đã tìm thấy 1 kết quả. Hãy dùng phím lên và xuống để di chuyển.","manyResults":"%d kết quả được tìm thấy. Sử dụng phím lên \/ xuống để xem.","itemSelected":"Mục được chọn."};</script>
+<script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.13.2" id="jquery-ui-autocomplete-js"></script>
+<script id="zxcvbn-async-js-extra">var _zxcvbnSettings = {"src":"https:\/\/ngocnhiap.github.io\/doancuoiky\/wp-includes\/js\/zxcvbn.min.js"};</script>
+<script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/zxcvbn-async.min.js?ver=1.0" id="zxcvbn-async-js"></script>
 <script id="password-strength-meter-js-extra">var pwsL10n = {"unknown":"Mật khẩu mạnh không xác định","short":"Rất yếu","bad":"Yếu","good":"Trung bình","strong":"Mạnh","mismatch":"Mật khẩu không khớp"};</script>
 <script id="password-strength-meter-js-translations">( function( domain, translations ) {
 	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
@@ -89,14 +102,13 @@ wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 <script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
 <script id="wp-util-js-extra">var _wpUtilSettings = {"ajax":{"url":"\/Doancuoiky\/wp-admin\/admin-ajax.php"}};</script>
 <script src="https://ngocnhiap.github.io/doancuoiky/wp-includes/js/wp-util.min.js?ver=6.2.2" id="wp-util-js"></script>
-<script id="user-profile-js-extra">var userProfileL10n = {"user_id":"0","nonce":"94bcf5d9b1"};</script>
+<script id="user-profile-js-extra">var userProfileL10n = {"user_id":"0","nonce":"a5912aa82d"};</script>
 <script id="user-profile-js-translations">( function( domain, translations ) {
 	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
 	localeData[""].domain = domain;
 	wp.i18n.setLocaleData( localeData, domain );
 } )( "default", {"translation-revision-date":"2022-08-03 11:30:24+0000","generator":"GlotPress\/4.0.0-alpha.4","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"vi_VN"},"Your new password has not been saved.":["Mật khẩu mới của bạn chưa được lưu."],"Hide":["Ẩn đi"],"Show":["Hiển thị"],"Confirm use of weak password":["Chấp nhận sử dụng mật khẩu yếu."],"Hide password":["Ẩn mật khẩu"],"Show password":["Hiện mật khẩu"]}},"comment":{"reference":"wp-admin\/js\/user-profile.js"}} );</script>
 <script src="https://ngocnhiap.github.io/doancuoiky/wp-admin/js/user-profile.min.js?ver=6.2.2" id="user-profile-js"></script>
-		<script>/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",(function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())}),!1);</script>
-			<div class="clear"></div>
+	<div class="clear"></div>
 	</body>
 	</html>
